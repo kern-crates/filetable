@@ -6,6 +6,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+log = "0.4"
+axtype = { git = "ssh://git@github.com/shilei-massclouds/axtype.git" }
+axerrno = { git = "ssh://git@github.com/shilei-massclouds/axerrno.git" }
 axfile = { git = "ssh://git@github.com/shilei-massclouds/axfile.git" }
 mutex = { git = "ssh://git@github.com/shilei-massclouds/mutex.git" }
 spinpreempt  = { git = "ssh://git@github.com/shilei-massclouds/spinpreempt.git" }
